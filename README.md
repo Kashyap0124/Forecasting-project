@@ -1,1 +1,6 @@
-# Forecasting-project
+In an increasingly interconnected global economy, understanding how exchange rates react to domestic and international economic forces is crucial for policymakers and businesses. To better understand this interplay, we will analyse and forecast the exchange rate dynamics between Canada and Australia, with Canada serving as the home country and Australia as the
+foreign country. Our analysis is based on a robust dataset collected over ten years every quarter.
+
+The data comprises four key variables: the nominal exchange rate between the Canadian (CAD) and Australian dollars (AD), the derived real exchange rate, and the Consumer Price Index (CPI) for both Canada and Australia. To facilitate a meaningful comparison, all series will be transformed using natural logarithms and, where necessary, normalized to a common base year (2014). This will allow us to capture relative changes and growth rates over time. We will then test the validity of Purchasing Power Parity (PPP) by examining both its absolute and relative forms, which will evaluate the equilibrium relationship between exchange rates and price levels across these two economies.
+
+Finally, we will employ Box-Jenkins models such as Auto Regressive (AR), Moving Average (MA), Auto Regressive Moving Average (ARMA), Auto Regressive integrated Moving Average (ARIMA) to forecast the real exchange rate, providing insights into its dynamic behaviour.
